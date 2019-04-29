@@ -4,6 +4,11 @@ Unlike similar Gulp or Grunt tools, our SVG sprite generator is created for desi
 
 SVG sprite generator is a helpful for creating icon systems.
 
+NOTICE: this is just a fork of https://github.com/frexy/svg-sprite-generator
+because I needed an updated version of the required of cheerio package
+to fix an npm audit issue. Whenever this issue is resolved: https://github.com/frexy/svg-sprite-generator/issues/10
+you should use frexy/svg-sprite-generator instead of this one (flyke/svg-sprite-generator). 
+
 ## Installation
 
 This program needs [Node.js](http://nodejs.org) to run. If Node already existed in your system, use ```npm``` to install the generator:
